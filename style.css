@@ -4779,4 +4779,191 @@ textarea.form-control {
   .process-flow-line {
     display: none !important;
   }
+
+}
+/* ======================================================
+   🔧 MOBILE RESPONSIVENESS FIX (PASTE AT END OF CSS)
+   ====================================================== */
+
+@media (max-width: 768px) {
+
+  /* ---------- GLOBAL SAFETY ---------- */
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+
+  html, body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* ---------- NAVBAR FIX ---------- */
+  :root {
+    --nav-height: 60px;
+  }
+
+  .main-navbar {
+    height: auto;
+    padding: 8px 0;
+  }
+
+  .navbar-collapse {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 0 0 12px 12px;
+  }
+
+  /* ---------- HERO SECTION FIX ---------- */
+  .hero-slider {
+    height: auto;
+    min-height: 85vh;
+    margin-top: 0;
+    padding-bottom: 20px;
+  }
+
+  .slides,
+  .slide {
+    height: 100%;
+  }
+
+  .slide {
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat;
+  }
+
+  .hero-overlay {
+    background: linear-gradient(
+      180deg,
+      rgba(15, 60, 92, 0.15) 0%,
+      rgba(15, 60, 92, 0.45) 55%,
+      rgba(15, 60, 92, 0.95) 100%
+    );
+  }
+
+  .hero-container {
+    padding-bottom: 20px;
+  }
+
+  .hero-content {
+    padding: 0 15px;
+    text-align: left;
+  }
+
+  .hero-content h1 {
+    font-size: 1.9rem;
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+
+  .hero-content p {
+    font-size: 0.95rem;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  /* ---------- HERO BUTTONS ---------- */
+  .hero-buttons,
+  .cta-buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .custom-btn,
+  .btn {
+    width: 100%;
+  }
+
+  /* ---------- TRUST STRIP FIX ---------- */
+  .trust-strip {
+    position: relative;
+    margin-top: 20px;
+    padding: 10px 0;
+  }
+
+  .trust-strip span {
+    font-size: 0.75rem;
+    display: block;
+    margin-top: 4px;
+  }
+
+  /* ---------- SLIDER BUTTONS ---------- */
+  .slider-btn {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+  }
+
+  .prev-btn {
+    left: 15px;
+  }
+
+  .next-btn {
+    right: 15px;
+  }
+
+  /* ---------- SECTIONS & CARDS ---------- */
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .product-card,
+  .product-card-enhanced,
+  .service-card,
+  .quality-card,
+  .cert-card,
+  .overview-card,
+  .capability-item,
+  .special-card,
+  .infrastructure-card,
+  .application-card,
+  .contact-card,
+  .quote-form-container {
+    margin-bottom: 25px;
+  }
+
+  /* ---------- FORMS ---------- */
+  .form-control,
+  .form-select,
+  textarea.form-control {
+    font-size: 0.95rem;
+  }
+
+  /* ---------- TIMELINE / PROCESS ---------- */
+  .process-timeline::before,
+  .process-flow-line {
+    display: none !important;
+  }
+
+  .process-step,
+  .timeline-item {
+    flex-direction: row !important;
+    padding-left: 70px;
+  }
+
+  .step-number,
+  .timeline-year {
+    left: 0;
+    margin: 0;
+  }
+
+  /* ---------- GALLERY ---------- */
+  .gallery-item img,
+  .project-image-wrapper,
+  .gallery-item img {
+    height: auto;
+  }
+
+  /* ---------- FOOTER ---------- */
+  .footer {
+    text-align: center;
+  }
 }
