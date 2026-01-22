@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Our Projects - SKA Transformers Gallery</title>
+  <meta name="description" content="Explore SKA Transformers' completed projects and installations. View our gallery of power transformers, distribution transformers, and custom electrical solutions.">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg fixed-top main-navbar">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
+      <img src="skaLogo.webp" class="navbar-logo" alt="SKA Logo">
+      <span class="brand-name">Transformers</span>
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+   <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown">
+            About Us
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#about">Company Overview</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button" data-bs-toggle="dropdown">
+            Products
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#products">All Products</a></li>
+            <li><a class="dropdown-item" href="Pad-mounted.html">Pad Mounted Transformers</a></li>
+            <li><a class="dropdown-item" href="Station-transformer.html">Station Transformers</a></li>
+            <li><a class="dropdown-item" href="power-transformers.html">Power Transformers</a></li>
+          </ul>
+        </li>
+     
+        <li class="nav-item"><a class="nav-link" href="Project.html">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+      <a href="contact.html#quote-form" class="btn quote-btn">Get a Quote</a>
+    </div>
+  </div>
+</nav>
+
+<!-- Page Header -->
+<section class="page-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <h1 class="page-title" data-aos="fade-up">Our Projects Gallery</h1>
+        <p class="page-subtitle" data-aos="fade-up" data-aos-delay="200">
+          Explore our extensive portfolio of transformer installations and custom electrical solutions delivered worldwide.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Gallery Stats -->
+<!-- <section class="py-5 bg-light">
+  <div class="container">
+    <div class="row g-4 text-center">
+      <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="stat-card">
+          <div class="stat-icon">
+            <i class="bi bi-lightning-charge"></i>
+          </div>
+          <h3 class="stat-number">500+</h3>
+          <p class="stat-label">Projects Completed</p>
+        </div>
+      </div>
+      
+      <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="stat-card">
+          <div class="stat-icon">
+            <i class="bi bi-globe"></i>
+          </div>
+          <h3 class="stat-number">25+</h3>
+          <p class="stat-label">Countries Served</p>
+        </div>
+      </div>
+      
+      <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="stat-card">
+          <div class="stat-icon">
+            <i class="bi bi-award"></i>
+          </div>
+          <h3 class="stat-number">15+</h3>
+          <p class="stat-label">Years Experience</p>
+        </div>
+      </div>
+      
+      <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+        <div class="stat-card">
+          <div class="stat-icon">
+            <i class="bi bi-people"></i>
+          </div>
+          <h3 class="stat-number">100+</h3>
+          <p class="stat-label">Happy Clients</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<!-- Gallery Filter -->
+<section class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center mb-5">
+        <h2 class="section-title">Project Gallery</h2>
+        <p class="lead mb-4">Browse through our completed transformer installations and manufacturing projects</p>
+        
+        <!-- Filter Buttons -->
+      
+      </div>
+    </div>
+
+    <!-- Gallery Grid -->
+    <div class="row g-4" id="galleryGrid">
+      <!-- Power Transformers -->
+      <div class="col-lg-4 col-md-6 gallery-item" data-category="power" data-aos="fade-up" data-aos-delay="100">
+        <div class="project-card">
+          <div class="project-image-wrapper">
+            <img src="img6.jpeg" alt="Power Transformer Installation" class="project-image">
+            <div class="project-overlay">
+              <div class="project-info">
+                <!-- <h5>High Voltage Power Transformer</h5>
+                <p>500 kVA Industrial Installation</p> -->
+                <a href="img6.jpeg" data-lightbox="gallery" data-title="High Voltage Power Transformer - 500 kVA Industrial Installation" class="view-btn">
+                  <i class="bi bi-eye"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 gallery-item" data-category="distribution" data-aos="fade-up" data-aos-delay="200">
+        <div class="project-card">
+          <div class="project-image-wrapper">
+            <img src="img7.jpeg" alt="Distribution Transformer" class="project-image">
+            <div class="project-overlay">
+              <div class="project-info">
+                <!-- <h5>Distribution Transformer</h5>
+                <p>Commercial Building Project</p> -->
+                <a href="img7.jpeg" data-lightbox="gallery" data-title="Distribution Transformer - Commercial Building Project" class="view-btn">
+                  <i class="bi bi-eye"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 gallery-item" data-category="substation" data-aos="fade-up" data-aos-delay="300">
+        <div class="project-card">
+          <div class="project-image-wrapper">
+            <img src="img8.jpeg" alt="Substation Transformer" class="project-image">
+            <div class="project-overlay">
+              <div class="project-info">
+                <!-- <h5>Substation Transformer</h5>
+                <p>Utility Grid Connection</p> -->
+                <a href="img8.jpeg" data-lightbox="gallery" data-title="Substation Transformer - Utility Grid Connection" class="view-btn">
+                  <i class="bi bi-eye"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 gallery-item" data-category="manufacturing" data-aos="fade-up" data-aos-delay="100">
+        <div class="project-card">
+          <div class="project-image-wrapper">
+            <img src="img9.jpeg" alt="Manufacturing Process" class="project-image">
+            <div class="project-overlay">
+              <div class="project-info">
+                <!-- <h5>Manufacturing Excellence</h5>
+                <p>Quality Control & Testing</p> -->
+                <a href="img9.jpeg" data-lightbox="gallery" data-title="Manufacturing Excellence - Quality Control & Testing" class="view-btn">
+                  <i class="bi bi-eye"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 gallery-item" data-category="pad-mounted" data-aos="fade-up" data-aos-delay="200">
+        <div class="project-card">
+          <div class="project-image-wrapper">
+            <img src="img10.jpeg" alt="Pad Mounted Transformer" class="project-image">
+            <div class="project-overlay">
+              <div class="project-info">
+                <!-- <h5>Pad Mounted Transformer</h5>
+                <p>Residential Area Installation</p> -->
+                <a href="img10.jpeg" data-lightbox="gallery" data-title="Pad Mounted Transformer - Residential Area Installation" class="view-btn">
+                  <i class="bi bi-eye"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 gallery-item" data-category="power" data-aos="fade-up" data-aos-delay="300">
+        <div class="project-card">
+          <div class="project-image-wrapper">
+            <img src="img11.jpeg" alt="Power Transformer Project" class="project-image">
+            <div class="project-overlay">
+              <div class="project-info">
+                <!-- <h5>Custom Power Transformer</h5>
+                <p>Industrial Manufacturing Plant</p> -->
+                <a href="img11.jpeg" data-lightbox="gallery" data-title="Custom Power Transformer - Industrial Manufacturing Plant" class="view-btn">
+                  <i class="bi bi-eye"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 gallery-item" data-category="substation" data-aos="fade-up" data-aos-delay="100">
+        <div class="project-card">
+          <div class="project-image-wrapper">
+            <img src="img12.jpeg" alt="Substation Installation" class="project-image">
+            <div class="project-overlay">
+              <div class="project-info">
+                <!-- <h5>Substation Installation</h5>
+                <p>High Voltage Distribution</p> -->
+                <a href="img12.jpeg" data-lightbox="gallery" data-title="Substation Installation - High Voltage Distribution" class="view-btn">
+                  <i class="bi bi-eye"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 gallery-item" data-category="distribution" data-aos="fade-up" data-aos-delay="200">
+        <div class="project-card">
+          <div class="project-image-wrapper">
+            <img src="img13.jpeg" alt="Distribution Network" class="project-image">
+            <div class="project-overlay">
+              <div class="project-info">
+                <!-- <h5>Distribution Network</h5>
+                <p>Urban Infrastructure Project</p> -->
+                <a href="img13.jpeg" data-lightbox="gallery" data-title="Distribution Network - Urban Infrastructure Project" class="view-btn">
+                  <i class="bi bi-eye"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 gallery-item" data-category="manufacturing" data-aos="fade-up" data-aos-delay="300">
+        <div class="project-card">
+          <div class="project-image-wrapper">
+            <img src="img14.jpeg" alt="Quality Testing" class="project-image">
+            <div class="project-overlay">
+              <div class="project-info">
+                <!-- <h5>Quality Testing Facility</h5>
+                <p>Advanced Testing Equipment</p> -->
+                <a href="img14.jpeg" data-lightbox="gallery" data-title="Quality Testing Facility - Advanced Testing Equipment" class="view-btn">
+                  <i class="bi bi-eye"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 gallery-item" data-category="power" data-aos="fade-up" data-aos-delay="100">
+        <div class="project-card">
+          <div class="project-image-wrapper">
+            <img src="img2.jpg" alt="Power Generation Project" class="project-image">
+            <div class="project-overlay">
+              <div class="project-info">
+                <!-- <h5>Power Generation Project</h5>
+                <p>Renewable Energy Integration</p> -->
+                <a href="img2.jpg" data-lightbox="gallery" data-title="Power Generation Project - Renewable Energy Integration" class="view-btn">
+                  <i class="bi bi-eye"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 gallery-item" data-category="pad-mounted" data-aos="fade-up" data-aos-delay="200">
+        <div class="project-card">
+          <div class="project-image-wrapper">
+            <img src="img2m.jpeg" alt="Pad Mounted Installation" class="project-image">
+            <div class="project-overlay">
+              <div class="project-info">
+                <!-- <h5>Pad Mounted Installation</h5>
+                <p>Commercial Complex</p> -->
+                <a href="img2m.jpeg" data-lightbox="gallery" data-title="Pad Mounted Installation - Commercial Complex" class="view-btn">
+                  <i class="bi bi-eye"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 gallery-item" data-category="manufacturing" data-aos="fade-up" data-aos-delay="300">
+        <div class="project-card">
+          <div class="project-image-wrapper">
+            <img src="img12m.jpeg" alt="Manufacturing Process" class="project-image">
+            <div class="project-overlay">
+              <div class="project-info">
+                <!-- <h5>Manufacturing Process</h5>
+                <p>Precision Engineering</p> -->
+                <a href="img12m.jpeg" data-lightbox="gallery" data-title="Manufacturing Process - Precision Engineering" class="view-btn">
+                  <i class="bi bi-eye"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Load More Button -->
+    <div class="row mt-5">
+      <div class="col-12 text-center">
+        <button class="btn btn-outline-primary btn-lg" id="loadMoreBtn">
+          <i class="bi bi-plus-circle me-2"></i>Load More Projects
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Call to Action -->
+<section class="py-5" style="background: linear-gradient(135deg, var(--primary), var(--secondary));">
+  <div class="container">
+    <div class="row align-items-center text-white">
+      <div class="col-lg-8" data-aos="fade-right">
+        <h3 class="mb-3">Ready to Start Your Next Project?</h3>
+        <p class="lead mb-0">Let our experienced team help you design and implement the perfect transformer solution for your specific requirements.</p>
+      </div>
+      <div class="col-lg-4 text-lg-end mt-4 mt-lg-0" data-aos="fade-left">
+        <a href="contact.html" class="btn btn-light btn-lg me-3">
+          <i class="bi bi-chat-dots me-2"></i>Get Quote
+        </a>
+        <a href="tel:+1234567890" class="btn btn-outline-light btn-lg">
+          <i class="bi bi-telephone me-2"></i>Call Now
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-4">
+        <div class="d-flex align-items-center mb-3">
+          <img src="skaLogo.webp" alt="SKA Logo" style="height: 40px; margin-right: 10px;">
+          <h5 class="text-white mb-0">SKA Transformers</h5>
+        </div>
+        <p class="text-light mb-3">Leading manufacturer of high-quality electrical transformers, delivering reliable power solutions for industrial and commercial applications worldwide.</p>
+       
+      </div>
+      
+      <div class="col-lg-2 col-md-6">
+        <h6 class="text-white mb-3">Products</h6>
+        <ul class="footer-links">
+          <li><a href="power-transformers.html">Power Transformers</a></li>
+          <li><a href="Substation-transformers.html">Substation Transformers</a></li>
+          <li><a href="Pad-mounted.html">Pad Mounted</a></li>
+        
+        </ul>
+      </div>
+      
+      <div class="col-lg-2 col-md-6">
+        <h6 class="text-white mb-3">Company</h6>
+        <ul class="footer-links">
+          <li><a href="index.html#about">About Us</a></li>
+          <li><a href="infrastructure.html">Infrastructure</a></li>
+          <li><a href="Project.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      
+      <div class="col-lg-4">
+        <h6 class="text-white mb-3">Contact Info</h6>
+        <div class="contact-info">
+          <p><i class="bi bi-geo-alt me-2"></i>FlatNo.G-603 MohiteParadise,SinhagadRoad AnandNagar, Pune 411051, INDIA</p>
+          <p><i class="bi bi-telephone me-2"></i>+91 87665 83894 </p>
+          <p><i class="bi bi-envelope me-2"></i>sales@skatransformers.com</p>
+        </div>
+      </div>
+    </div>
+    
+    <hr class="my-4" style="border-color: rgba(255,255,255,0.2);">
+    
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <p class="text-light mb-0">&copy; 2024 SKA Transformers. All rights reserved.</p>
+      </div>
+      <div class="col-md-6 text-md-end">
+        <a href="#" class="text-light me-3">Privacy Policy</a>
+        <a href="#" class="text-light">Terms of Service</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+
+<script>
+  // Initialize AOS
+  AOS.init({
+    duration: 1000,
+    once: true
+  });
+
+  // Gallery filtering
+  const filterBtns = document.querySelectorAll('.filter-btn');
+  const galleryItems = document.querySelectorAll('.gallery-item');
+
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      // Remove active class from all buttons
+      filterBtns.forEach(b => b.classList.remove('active'));
+      // Add active class to clicked button
+      btn.classList.add('active');
+
+      const filter = btn.getAttribute('data-filter');
+
+      galleryItems.forEach(item => {
+        if (filter === 'all' || item.getAttribute('data-category') === filter) {
+          item.style.display = 'block';
+          item.style.animation = 'fadeInUp 0.6s ease-out';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    });
+  });
+
+  // Load more functionality (placeholder)
+  document.getElementById('loadMoreBtn').addEventListener('click', function() {
+    this.innerHTML = '<i class="bi bi-check-circle me-2"></i>All Projects Loaded';
+    this.classList.remove('btn-outline-primary');
+    this.classList.add('btn-success');
+    this.disabled = true;
+  });
+
+  // Lightbox configuration
+  lightbox.option({
+    'resizeDuration': 200,
+    'wrapAround': true,
+    'albumLabel': 'Image %1 of %2'
+  });
+</script>
+
+</body>
+</html>
