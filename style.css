@@ -215,16 +215,6 @@ body {
   position: relative;
 }
 
-.section-title::after {
-  content: '';
-  position: absolute;
-  bottom: -10px;
-  left: 0;
-  width: 60px;
-  height: 4px;
-  background: linear-gradient(135deg, var(--primary), var(--secondary));
-  border-radius: 2px;
-}
 
 /* ================= ABOUT SECTION ENHANCEMENTS ================= */
 .about-content {
@@ -4967,3 +4957,4 @@ textarea.form-control {
     text-align: center;
   }
 }
+
